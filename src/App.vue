@@ -10,6 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 // eslint-disable-next-line
 console.log(process.env.VUE_APP_A_SECRET_KEY)
+// testing!!
 
 export default {
   name: 'app',
