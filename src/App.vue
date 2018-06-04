@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <Nav />
-    <img src="./assets/logo.png">    
+    <Nav />    
     <HelloWorld msg="Yo dude, Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -9,6 +8,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Nav from './components/Nav.vue'
+import sassStyles from './scss/main.module.scss'
 
 // eslint-disable-next-line
 // console.log(process.env.VUE_APP_A_SECRET_KEY)
@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style>
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
