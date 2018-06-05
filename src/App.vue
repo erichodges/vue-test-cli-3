@@ -8,7 +8,7 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Nav from './components/Nav.vue'
-import sassStyles from './scss/main.module.scss'
+import './scss/main.scss'
 
 // eslint-disable-next-line
 // console.log(process.env.VUE_APP_A_SECRET_KEY)
